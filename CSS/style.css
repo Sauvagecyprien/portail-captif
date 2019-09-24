@@ -1,0 +1,177 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #18244D !important;
+    
+}
+
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.flex1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.flex2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+
+.divhaut{
+    width: 25%;
+    
+    margin-top: 50px;
+}
+.divcentral{
+    width: 25%;
+    height: 700px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #F4F5F7;
+   
+}
+
+.premierepartie{
+    height: 20%;
+    width: 100%;
+    
+    padding: 30px;
+    background-color: #FFFFFF !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 10px;
+}
+
+.deuxiemepartie{
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    padding: 50px;
+    
+}
+
+.input-group-prepend span {
+    background-color: white !important;
+    border-right: none !important;
+}
+
+
+input{
+    border-left: none !important;
+
+}
+
+span{
+    border-right: none !important;
+}
+
+
+
+select{
+    border-left: none !important;
+
+}
+
+.avertissement{
+    margin-top: 20px;
+}
+
+/*@media (min-width: 576px) @media screen and (max-width: 991px) {*/
+
+@media screen and (max-width: 600px) {
+
+    .divcentral{
+        width: 85%;
+        height: 600px;
+        margin-top: 10px;
+        height: 750px;
+    }
+
+     .divhaut{
+        margin-top: 10px;
+    }
+
+    .premierepartie{
+        height: 25%;
+       
+    }
+
+}
+
+@media screen and (max-width: 330px) {
+
+    .deuxiemepartie{
+        padding: 1px;
+      
+    }
+
+    .divcentral{
+        height: 700px;
+    }
+
+h4{
+
+    font-size: 1.4em !important;
+}
+
+.avertissement{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+}
+
+
+
+
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+
+    .divcentral{
+        width: 75%;
+        margin-top: 50px;
+        
+       
+    }
+    
+}
+
+
+@media screen and (min-width: 850px) and (max-width: 1400px) {
+
+    .divcentral{
+        width: 85%;
+        margin-top: 100px;
+    }
+
+     .divhaut{
+        margin-top: 100px;
+    }
+
+    .premierepartie{
+        height: 25%;
+       
+    }
+
+}
+
+
+@media screen and (min-width: 1401px) and (max-width: 1850px) {
+
+    .divcentral{
+        width: 35%;
+        margin-top: 30px;
+    }
+    .divhaut{
+        margin-top: 30px;
+    }
+
+
+}
